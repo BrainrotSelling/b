@@ -236,7 +236,7 @@ header h1 {
     border-radius: 16px;
     margin-bottom: 30px;
     border: 1px solid var(--dark-border);
-    box-shadow: 0 5px极15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     width: 100%;
 }
 
@@ -301,7 +301,7 @@ button[type="submit"] {
     font-size: 1.1em;
     font-weight: bold;
     cursor: pointer;
-    transition: all 极.3s ease;
+    transition: all 0.3s ease;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     position: relative;
     overflow: hidden;
@@ -318,7 +318,7 @@ button[type="submit"]::before {
     transition: 0.5s;
 }
 
-button[type极="submit"]:hover {
+button[type="submit"]:hover {
     transform: translateY(-3px);
     box-shadow: 0 8px 25px rgba(102, 126, 234, 0.4);
 }
